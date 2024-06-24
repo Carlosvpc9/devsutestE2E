@@ -22,7 +22,7 @@ describe('purchasing flow', () => {
     cy.wait(1000);
     cy.fixture('TestData').then((data) => {
       CartPage.fillForm(data.dataPurchaseForm);  
-    }    
+    });
     CartPage.confirm();
   })
 
