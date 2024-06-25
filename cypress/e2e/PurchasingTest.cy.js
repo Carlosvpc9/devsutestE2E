@@ -6,9 +6,8 @@ import ProductsPage from "../page-objects/ProductsPage";
 
 describe('purchasing flow', () => {
 
-  before(() => {
-    // Configuración inicial antes de cada prueba
-    HomePage.visit();
+  before(() => {  
+      HomePage.visit('www.demoblaze.com');
   });
 
   it('purchasing flow succesfully', () => {

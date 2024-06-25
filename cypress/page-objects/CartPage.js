@@ -23,6 +23,9 @@ class CartPage {
 
     confirm(){
         cy.contains('Thank you for your purchase!');
+        cy.get('body > div.sweet-alert.showSweetAlert.visible > div.sa-button-container > div > button')
+        .should('be.visible')
+        .click();
     }
 }
 

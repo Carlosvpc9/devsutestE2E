@@ -1,22 +1,22 @@
 class HomePage {
 
-    visit(){
-        cy.visit('www.demoblaze.com')
+    visit(url) {
+        cy.visit(url);
     }
 
-    goToHome(){
+    goToHome() {
         cy.get('#nava').click();
     }
 
-    firstProduct(){
+    firstProduct() {
         cy.get(':nth-child(1) > .card > .card-block > .card-title > .hrefch').click();
     }
 
-    secondProduct(){
-        cy.get(':nth-child(2) > .card > .card-block > .card-title > .hrefch').click();  
-    } 
+    secondProduct() {
+        cy.get(':nth-child(2) > .card > .card-block > .card-title > .hrefch').click();
+    }
 
-    
+
 }
 
 
