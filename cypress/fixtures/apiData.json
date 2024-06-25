@@ -1,0 +1,8 @@
+{
+    "endpoints": {
+
+        "signUp": "https://api.demoblaze.com/signup",
+        "signIn": "https://api.demoblaze.com/login" 
+
+    }
+}
