@@ -1,4 +1,4 @@
-TEST E2E DEVSU
+TEST AUTOMATION EXCERSISES DEVSU
 
 ****************************
 PurchasingTest.cy.js
