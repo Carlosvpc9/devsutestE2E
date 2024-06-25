@@ -1,0 +1,12 @@
+Conclusiones
+
+Se aplicó el modelo POM para la caracterización de paginas con elementos y funciones 
+necesarias para la prueba, lo anterior en el fichero page-objects, y se escribió
+el test en el fichero e2e dentro del archivo PurchasingTest.cy.js.
+
+Como observación la pagína en varios elementos no posee id claros, por lo que fe necesario
+valerse de las herramientas ofrecidas por cypress y navegadores web para indentificar locators.
+
+En el Readme se encuentran las instrucciones para ejecutar las pruebas y generar un reporte
+en formato html, que se encuentra en "cypress\reports\html\index.html", el cual se contruye 
+con el uso de la librería mochawesome-reporter.

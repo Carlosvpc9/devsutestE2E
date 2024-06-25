@@ -11,10 +11,12 @@ describe('purchasing flow', () => {
   });
 
   it('purchasing flow succesfully', () => {
-    HomePage.firstProduct();
+    let products = {};
+
+    HomePage.selectFirstProduct();
     ProductsPage.addToCart();
     HomePage.goToHome();
-    HomePage.secondProduct();
+    HomePage.selectSecondProduct();
     ProductsPage.addToCart();
     CartPage.goToCart();
     CartPage.placeOrder();

@@ -1,8 +1,15 @@
 
 class ProductsPage {
 
+    elements = {
+        addCartBtn: () =>  cy.get('.col-sm-12 > .btn'),
+        productName: () => cy.get('#tbodyid > h2'),
+        productPrice: () => cy.get('.price-container')
+    }
+
     addToCart(){
-        cy.get('.col-sm-12 > .btn').click();
+       this.elements.addCartBtn().click();
+
     }
 
 }
