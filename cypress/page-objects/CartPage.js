@@ -12,7 +12,8 @@ class CartPage {
         yearField: () => cy.get('#year'),
         purchaseBtn: () => cy.get('#orderModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary'),
         confirmBtn: () => cy.get('body > div.sweet-alert.showSweetAlert.visible > div.sa-button-container > div > button'),
-        cartList: () => cy.get('#page-wrapper')
+        cartList1: () => cy.get('#tbodyid > :nth-child(2) > :nth-child(2)'),
+        cartList2: () =>cy.get('#tbodyid > :nth-child(1) > :nth-child(2)')
     }
 
 
